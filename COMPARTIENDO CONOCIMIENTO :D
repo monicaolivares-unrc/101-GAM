@@ -1,1 +1,12 @@
+# Archivo: main.py
 
+def saludar(nombre):
+    return f"Hola, {nombre}! Bienvenida a tu primer repositorio en GitHub :)"
+
+def suma(a, b):
+    return a + b
+
+if __name__ == "__main__":
+    print(saludar("Olga"))
+    resultado = suma(5, 7)
+    print(f"La suma de 5 + 7 es: {resultado}")
